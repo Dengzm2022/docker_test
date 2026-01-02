@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: gallery
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.94.124.145:3306/gallery?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: zimon
+    password: 1234
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+minio:
+  endpoint: http://localhost:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucketName: gallery
+
+server:
+  port: 8080

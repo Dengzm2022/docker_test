@@ -1,0 +1,8 @@
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\config\MinioConfig.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\entity\Image.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\service\ImageService.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\GalleryApplication.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\mapper\ImageMapper.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\controller\ImageController.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\utils\MinioUtils.java
+E:\work_space\docker_test\backend\src\main\java\com\example\gallery\service\impl\ImageServiceImpl.java

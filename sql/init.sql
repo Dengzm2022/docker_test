@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS gallery CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE gallery;
+
+CREATE TABLE IF NOT EXISTS image (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT 'Primary Key',
+    name VARCHAR(255) NOT NULL COMMENT 'Image Name',
+    url VARCHAR(500) NOT NULL COMMENT 'Storage URL/Path',
+    size BIGINT COMMENT 'File Size in Bytes',
+    create_time DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT 'Creation Time'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Image Gallery Table';

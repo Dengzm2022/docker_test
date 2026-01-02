@@ -1,0 +1,8 @@
+com\example\gallery\utils\MinioUtils.class
+com\example\gallery\service\impl\ImageServiceImpl.class
+com\example\gallery\mapper\ImageMapper.class
+com\example\gallery\config\MinioConfig.class
+com\example\gallery\controller\ImageController.class
+com\example\gallery\entity\Image.class
+com\example\gallery\GalleryApplication.class
+com\example\gallery\service\ImageService.class
